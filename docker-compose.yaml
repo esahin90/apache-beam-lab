@@ -2,6 +2,7 @@ services:
   beamlab:
     build: .
     ports:
+      - "8080:5000"
       - "8888:8888"
     volumes:
       - .:/work
